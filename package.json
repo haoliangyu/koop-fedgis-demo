@@ -1,0 +1,27 @@
+{
+  "name": "test-app",
+  "version": "0.1.0",
+  "description": "A project template for Koop",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha 'test/**/*.test.js'",
+    "start": "node src/index.js",
+    "start:dev": "koop serve --debug --watch"
+  },
+  "dependencies": {
+    "@koopjs/provider-socrata": "^0.1.0",
+    "config": "^3.2.4",
+    "koop": "^3.15.0"
+  },
+  "devDependencies": {
+    "@koopjs/cli": "^0.6.0",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2"
+  },
+  "repository": "",
+  "private": true,
+  "keywords": [
+    "koop",
+    "app"
+  ]
+}
