@@ -19,4 +19,5 @@ routes.forEach((route) => {
 })
 
 // start the server
-koop.server.listen(config.port, () => koop.log.info(`Koop server listening at ${config.port}`))
+const port = process.env.PORT;
+koop.server.listen(port, () => koop.log.info(`Koop server listening at ${port}`))
