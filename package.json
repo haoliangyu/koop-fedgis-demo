@@ -1,7 +1,7 @@
 {
-  "name": "test-app",
+  "name": "koop-fedgis-demo",
   "version": "0.1.0",
-  "description": "A project template for Koop",
+  "description": "A Koop demo app for FedGIS 2020",
   "main": "src/index.js",
   "scripts": {
     "test": "mocha 'test/**/*.test.js'",
